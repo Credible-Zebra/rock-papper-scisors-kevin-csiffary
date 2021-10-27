@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="eWi+D(qt8Kf2yS=ih*$U">tool</variable></variables><block type="pxt-on-start" id="IHMY)@=Y/z/6t:0q`YQS" x="20" y="20"/><block type="device_forever" id="U_;i)oY@3x-Pi7DNId)s" x="225" y="20"/><block type="device_gesture_event" id="f4Mw[F!ukFDWEJ,+]*F9" x="35" y="185"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="}B;tZK#aC#^i|)ph6={g"><field name="VAR" id="eWi+D(qt8Kf2yS=ih*$U">tool</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="b.2Ii87{*Xk,boypt:qz"><value name="min"><shadow type="math_number" id="xO4L5(xn1vIqMDzPY!_u"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="U79UAE8oz(x.eu`NWACW"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="uz?Jm8mH1q|BT!~T$w6G"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="A?;C.CP4`p;q$Jnk]`~j"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="_`,x.2J}j$pEPCTk|v*7"><field name="VAR" id="eWi+D(qt8Kf2yS=ih*$U">tool</field></block></value><value name="B"><shadow type="math_number" id="5S#zaptW)(tkCo;UL_=G"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="_Vm.ahgG[N0%agN?}-ZF"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="}0sNh^oAb~J83j^@5[8H"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="T~=n25jx-vCQ-atQ_FX!"><field name="VAR" id="eWi+D(qt8Kf2yS=ih*$U">tool</field></block></value><value name="B"><shadow type="math_number" id="EKc8]4qyrPl)ig5EpOrr"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="pc}d6U/F2y7[,J,=hK1+"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="WB?QAbLNM-E8SiJ;@J:}"><field name="i">IconNames.Scissors</field></block></statement></block></next></block></statement></block></xml>
